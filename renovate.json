@@ -8,11 +8,11 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
+      "automerge": false
     },
     {
       "matchDepTypes": ["devDependencies"],
-      "automerge": true
+      "automerge": false
     }
   ],
   "prConcurrentLimit": 5
